@@ -1,0 +1,46 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap'); */
+
+body {
+  background: linear-gradient(#B1B2FF,
+  #AAC4FF,
+  #D2DAFF,
+  #EEF1FF);
+  font-family: poppins;
+}
+
+.type-1 {
+  list-style-type:unset;
+}
+
+.wrapper {
+  background-color: #1e1e1e;
+}
+
+.profile-navbar {
+  text-align: center;
+  margin-block-start: 5%;
+}
+
+.ul-profile {
+  padding: 1vh;
+}
+
+.li-profile {
+  list-style-type: none;
+  display: flex;
+  margin-inline: 0.02%;
+  padding-inline: 1rem;
+  padding-block: 1vh;
+}
+
+.li-profile:hover {
+  background-color: ghostwhite;
+  background-size: auto;
+  border-radius: 3vh;
+}
+
+.a-profile {
+  color: #AAC4FF;
+  text-decoration: none;
+  padding-left: 3%;
+}
